@@ -1,13 +1,77 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sumanth Reddy Bontha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello! I'm Sumanth 👋</h1>
-  <p>Welcome to my portfolio.</p>
+
+  <div class="container">
+    <header>
+      <h1>Sumanth Reddy Bontha</h1>
+      <p>Software Engineer | Backend Dev | ML Enthusiast</p>
+      <div class="links">
+        <a href="mailto:sumanthredddy.bontha@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sumanthreddybontha" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sumanthreddybontha" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <!-- 👋 Intro Section -->
+    <section>
+      <h2>👋 About Me</h2>
+      <p>
+        Hi! I'm Sumanth Reddy Bontha, a passionate Software Engineer currently pursuing my Master's in Computer Science at UCF (graduating May 2025).
+        I love building scalable systems that are secure, and fast. With 1.5+ years of experience in cloud-native applications and a deep interest in system design and AI,
+        I'm on a mission to create impactful software that solves real-world problems.
+      </p>
+      <p>
+        My work spans backend APIs, data pipelines, and ML-integrated services. Whether it’s optimizing a REST endpoint or evaluating an LLM with CrystalBLEU, I bring both hands-on skill and curiosity to the table.
+      </p>
+    </section>
+
+    <!-- 🛠 Skills -->
+    <section>
+      <h2>🛠 Skills</h2>
+      <ul class="skills">
+        <li>Python</li>
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>React.js</li>
+        <li>PostgreSQL</li>
+        <li>FastAPI</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>GitHub Actions</li>
+        <li>Scikit-learn</li>
+        <li>PyTorch</li>
+        <li>Spark</li>
+      </ul>
+    </section>
+
+    <!-- 📁 Projects -->
+    <section>
+      <h2>📁 Projects</h2>
+
+      <div class="project">
+        <h3>📈 <a href="https://github.com/sumanthreddybontha/Stock-Recommendations" target="_blank">Stock Analysis Platform</a></h3>
+        <p>
+          Built a Spark-based pipeline to analyze 2M+ stock records. Applied clustering and classification (Random Forest, XGBoost) to achieve 82% prediction accuracy.
+        </p>
+        <p><strong>Tools:</strong> Python, Scikit-learn, Spark, GCS</p>
+      </div>
+
+      <div class="project">
+        <h3>🛒 <a href="https://github.com/sumanthreddybontha/modumart" target="_blank">ModuMart</a></h3>
+        <p>
+          Microservices-based e-commerce backend with product and cart services. Used Redis for caching, FastAPI for APIs, and PostgreSQL for persistence.
+        </p>
+        <p><strong>Tools:</strong> FastAPI, Docker, Redis, PostgreSQL</p>
+      </div>
+    </section>
+  </div>
+
 </body>
 </html>
